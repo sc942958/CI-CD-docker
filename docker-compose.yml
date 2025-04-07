@@ -3,9 +3,9 @@ services:
     build:
       context: ./docker/
       tags:
-        - "sethconley981/go_server:latest"
-    container_name: go_app
-    image: sethconley981/go_server:latest
+        - "sethconley981/node_server:latest"
+    container_name: node_app
+    image: sethconley981/node_server:latest
     restart: always
     expose:
       - 8080
